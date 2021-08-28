@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Mazzard M';
+  src: url('/assets/fonts/Mazzard/MazzardM-Medium.eot');
+  src: local('Mazzard M Medium'), local('MazzardM-Medium'),
+  url('/assets/fonts/Mazzard/MazzardM-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/Mazzard/MazzardM-Medium.woff2') format('woff2'),
+  url('/assets/fonts/Mazzard/MazzardM-Medium.woff') format('woff'),
+  url('/assets/fonts/Mazzard/MazzardM-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard M';
+  src: url('/assets/fonts/Mazzard/MazzardM-Light.eot');
+  src: local('Mazzard M Light'), local('MazzardM-Light'),
+  url('/assets/fonts/Mazzard/MazzardM-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/Mazzard/MazzardM-Light.woff2') format('woff2'),
+  url('/assets/fonts/Mazzard/MazzardM-Light.woff') format('woff'),
+  url('/assets/fonts/Mazzard/MazzardM-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard M';
+  src: url('/assets/fonts/Mazzard/MazzardM-SemiBold.eot');
+  src: local('Mazzard M SemiBold'), local('MazzardM-SemiBold'),
+  url('/assets/fonts/Mazzard/MazzardM-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/Mazzard/MazzardM-SemiBold.woff2') format('woff2'),
+  url('/assets/fonts/Mazzard/MazzardM-SemiBold.woff') format('woff'),
+  url('/assets/fonts/Mazzard/MazzardM-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard M';
+  src: url('/assets/fonts/Mazzard/MazzardM-Bold.eot');
+  src: local('Mazzard M Bold'), local('MazzardM-Bold'),
+  url('/assets/fonts/Mazzard/MazzardM-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/Mazzard/MazzardM-Bold.woff2') format('woff2'),
+  url('/assets/fonts/Mazzard/MazzardM-Bold.woff') format('woff'),
+  url('/assets/fonts/Mazzard/MazzardM-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard M';
+  src: url('/assets/fonts/Mazzard/MazzardM-Regular.eot');
+  src: local('Mazzard M Regular'), local('MazzardM-Regular'),
+  url('/assets/fonts/Mazzard/MazzardM-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/Mazzard/MazzardM-Regular.woff2') format('woff2'),
+  url('/assets/fonts/Mazzard/MazzardM-Regular.woff') format('woff'),
+  url('/assets/fonts/Mazzard/MazzardM-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* COMMON */
+body {
+  font-family: 'Mazzard M', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+body.fixed {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 118px;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 53px;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.btn {
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 58px;
+  
+  font-size: 16px;
+  line-height: 19px;
+  
+  transition: 320ms;
+}
+
+.btn:hover {
+}
+
+.btn-fill {
+  background: #6E7A76;
+  color: #fff;
+}
+
+.btn-fill:hover {
+  background-color: #525252;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #B1AEAC;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0 12px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #171717;
+}
+
+.form-control::placeholder {
+  color: #999999;
+}
+
+.form-control:focus {
+  outline: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border-color: #B1AEAC;
+}
+
+/* COMMON */
+
+
+/*HEADER*/
+header {
+  padding: 12px 0;
+  margin-bottom: 20px;
+}
+
+header .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.header__logo {
+  display: block;
+  width: 206px;
+  margin-right: 28px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__center {
+  flex: 1 1 auto;
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  
+  font-size: 16px;
+  line-height: 19px;
+  color: #979797;
+}
+
+.contacts__item svg {
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.contacts__item a {
+  color: #979797;
+}
+
+.contacts__socials {
+  display: flex;
+}
+
+.socials__item {
+  display: block;
+  margin-right: 12px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.menu__link::before {
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 320ms;
+}
+
+.menu__link:hover::before,
+.menu__link.active::before {
+  width: 100%;
+}
+
+.header__btn {
+  margin-left: 48px;
+}
+/*HEADER*/
+
+.slider__item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.slider__title {
+  padding: 264px 0 350px;
+  font-size: 100px;
+  line-height: 118px;
+  color: #FFFFFF;
+  width: 700px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1366px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 375px) {
+
+
+}

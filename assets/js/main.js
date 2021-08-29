@@ -36,6 +36,15 @@ $(document).ready(function () {
     margin: 20,
   });
 
+  //слайдер portfolio
+  $('.portfolio__slider').owlCarousel({
+    loop:true,
+    center:true,
+    nav:true,
+    items:3,
+    margin: 20,
+  });
+
   //запуск видео
   $('.btn-play').click( function () {
     let video = $(this).siblings('video').get(0);

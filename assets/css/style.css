@@ -735,7 +735,84 @@ footer {
   text-decoration-line: none;
 }
 
+.portfolio__item {
+  position: relative;
+  padding-bottom: 64px;
+}
 
+.portfolio__slider .owl-item:nth-child(2n) {
+  margin-top: 90px;
+}
+
+.portfolio__img {
+  width: 100%;
+  height: 372px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio__type {
+  width: 94px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.86);
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(1, 1, 1, 0.53);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio__desc {
+  background: #000000;
+  padding: 32px 42px;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.portfolio__name {
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.portfolio__name::before {
+  content: '';
+  width: 72px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.portfolio__date {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.portfolio__text {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  display: none;
+}
+
+.portfolio__desc:hover .portfolio__text  {
+  display: block;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 

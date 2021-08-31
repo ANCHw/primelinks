@@ -7,10 +7,15 @@ $(document).ready(function () {
     return false;
   });
 
-  //бургер
+  //mobile menu
   $('.burger').click( function () {
-    $('.sidemenu').toggleClass('active');
-    $('body').toggleClass('fixed');
+    $('.mobile-menu').addClass('active');
+    $('body').css('overflow','hidden');
+  });
+
+  $('.close').click( function () {
+    $('.mobile-menu').removeClass('active');
+    $('body').css('overflow','auto');
   });
 
   //главный слайдер
@@ -26,14 +31,35 @@ $(document).ready(function () {
     nav:true,
     items:3,
     margin: 20,
+    responsive : {
+      0 : {
+        items:1,
+      },
+      768 : {
+        items:2,
+      },
+      992 : {
+        items:3,
+      }
+    }
   });
 
   //слайдер блога
   $('.blog__slider').owlCarousel({
     loop:false,
     nav:true,
-    items:3,
     margin: 20,
+    responsive : {
+      0 : {
+        items:1,
+      },
+      768 : {
+        items:2,
+      },
+      992 : {
+        items:3,
+      }
+    }
   });
 
   //слайдер portfolio
@@ -41,16 +67,39 @@ $(document).ready(function () {
     loop:true,
     center:true,
     nav:true,
-    items:3,
     margin: 20,
+    responsive : {
+      0 : {
+        items:1,
+      },
+      768 : {
+        items:2,
+      },
+      992 : {
+        items:3,
+      }
+    }
   });
 
   //слайдер gallery
   $('.gallery__slider').owlCarousel({
     loop:false,
     nav:true,
-    items:4,
     margin: 20,
+    responsive : {
+      0 : {
+        items:1,
+      },
+      768 : {
+        items:2,
+      },
+      992 : {
+        items:3,
+      },
+      1200 : {
+        items:4,
+      }
+    }
   });
 
   //запуск видео
@@ -81,4 +130,5 @@ $(document).ready(function () {
       div.parent().fadeOut();
     }
   });
+
 });

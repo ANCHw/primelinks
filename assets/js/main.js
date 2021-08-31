@@ -45,6 +45,14 @@ $(document).ready(function () {
     margin: 20,
   });
 
+  //слайдер gallery
+  $('.gallery__slider').owlCarousel({
+    loop:false,
+    nav:true,
+    items:4,
+    margin: 20,
+  });
+
   //запуск видео
   $('.btn-play').click( function () {
     let video = $(this).siblings('video').get(0);
@@ -54,6 +62,23 @@ $(document).ready(function () {
     } else {
       video.pause();
       $(".btn-play").removeClass('active');
+    }
+  });
+
+  //модалка
+  $('.btn-modal').click( function () {
+    $($(this).data('target')).fadeIn();
+  });
+
+  $('.modal-close').click( function () {
+    $(this).parents('.modal-fade').fadeOut();
+  });
+
+  $(document).mouseup(function (e){
+    let div = $(".modal");
+    if (!div.is(e.target)
+        && div.has(e.target).length === 0) {
+      div.parent().fadeOut();
     }
   });
 });

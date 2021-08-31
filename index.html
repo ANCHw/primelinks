@@ -53,8 +53,18 @@
             <li>
               <a href="/about.html" class="menu__link">About us</a>
             </li>
-            <li>
-              <a href="/services.html" class="menu__link menu">Services</a>
+            <li class="menu__drop">
+              <div class="menu__link">
+                Services
+                <svg role="img" width="10" height="7">
+                  <use xlink:href="/assets/img/sprite.svg#arrow-down"></use>
+                </svg>
+              </div>
+              <div class="menu__dropdown">
+                <a href="/product.html">Product</a>
+                <a href="/product.html">Product</a>
+                <a href="/product.html">Product</a>
+              </div>
             </li>
             <li>
               <a href="/portfolio.html" class="menu__link">Portfolio</a>
@@ -74,7 +84,7 @@
           </ul>
         </nav>
       </div>
-      <a href="#" class="btn btn-fill header__btn">Callback</a>
+      <button class="btn btn-fill header__btn btn-modal" data-target="#orderModal">Callback</button>
     </div>
   </div>
 </header>
@@ -550,6 +560,30 @@
     </div>
   </div>
 </footer>
+
+<div class="modal-fade" id="orderModal">
+  <div class="modal modal--dark modal-order">
+    <svg role="img" width="23" height="23" class="modal-close">
+      <use xlink:href="/assets/img/sprite.svg#close"></use>
+    </svg>
+    <h3 class="text-center">Order a call</h3>
+    <form action="" class="order__form">
+      <div class="form-row">
+        <div class="form-group form-group--dot">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group form-group--dot">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+      </div>
+      <div class="form__comment">
+        Нажимая “Отправить”, я подтверждаю согласие с
+        <a href="">политикой конфиденциальности и обработки персональных данных</a>
+      </div>
+      <input type="submit" class="btn btn-fill form-btn" value="Send a request">
+    </form>
+  </div>
+</div>
 
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/owl.carousel.js"></script>

@@ -7,6 +7,19 @@ $(document).ready(function () {
     return false;
   });
 
+  //фиксация шапки
+  let header = $('header'),
+      body = $('body');
+  $(window).scroll(function() {
+    if($(this).scrollTop() > 1) {
+      header.addClass('header_fixed');
+      body.css('padding-top', '110px');
+    } else {
+      header.removeClass('header_fixed');
+      body.css('padding-top', '0px');
+    }
+  });
+
   //mobile menu
   $('.burger').click( function () {
     $('.mobile-menu').addClass('active');
@@ -18,6 +31,12 @@ $(document).ready(function () {
     $('body').css('overflow','auto');
   });
 
+  //загрузка слайдера
+  $('.top__main-slider').on('initialized.owl.carousel', function () {
+    $(this).removeClass('hidden');
+    $(this).parent().removeClass('height');
+  });
+
   //главный слайдер
   $('.top__main-slider').owlCarousel({
     loop:false,
@@ -25,9 +44,12 @@ $(document).ready(function () {
     items:1
   });
 
+
+
   //слайдер отзывов
   $('.reviews__slider').owlCarousel({
     loop:false,
+    lazyLoad:true,
     nav:true,
     items:3,
     margin: 20,
@@ -47,6 +69,7 @@ $(document).ready(function () {
   //слайдер блога
   $('.blog__slider').owlCarousel({
     loop:false,
+    lazyLoad:true,
     nav:true,
     margin: 20,
     responsive : {
@@ -65,6 +88,7 @@ $(document).ready(function () {
   //слайдер portfolio
   $('.portfolio__slider').owlCarousel({
     loop:true,
+    lazyLoad:true,
     center:true,
     nav:true,
     margin: 20,
@@ -84,6 +108,7 @@ $(document).ready(function () {
   //слайдер gallery
   $('.gallery__slider').owlCarousel({
     loop:false,
+    lazyLoad:true,
     nav:true,
     margin: 20,
     responsive : {
@@ -130,5 +155,8 @@ $(document).ready(function () {
       div.parent().fadeOut();
     }
   });
+
+  //mask on phone
+  $(".phone-input").mask("+7(999) 999-9999");
 
 });

@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67ec724-5a34-4354-9045-0e0b7f7c5172" name="Default Changelist" comment="">
+    <list default="true" id="d67ec724-5a34-4354-9045-0e0b7f7c5172" name="Default Changelist" comment="main page">
+      <change afterPath="$PROJECT_DIR$/assets/css/fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/fancybox.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg-about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/bg-about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg-main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/bg-main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/categories8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/instagram-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/instagram-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/products1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/products2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/products3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/products4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/video-preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/video-preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/woman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/woman.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/example.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/assets/video/example.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/documents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +75,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -54,6 +91,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WORK\Primelinks\assets\js" />
+      <recent name="E:\WORK\Primelinks\assets\css" />
+      <recent name="E:\WORK\Primelinks" />
       <recent name="E:\WORK\Primelinks\assets\img" />
     </key>
   </component>
@@ -70,7 +110,14 @@
       <updated>1629831581586</updated>
       <workItem from="1629831583057" duration="4301000" />
       <workItem from="1630151567797" duration="14465000" />
-      <workItem from="1630230323070" duration="8582000" />
+      <workItem from="1630230323070" duration="9226000" />
+      <workItem from="1630259763425" duration="12055000" />
+      <workItem from="1630357015688" duration="1954000" />
+      <workItem from="1630396199093" duration="22425000" />
+      <workItem from="1630530014424" duration="10353000" />
+      <workItem from="1630541035921" duration="733000" />
+      <workItem from="1630604815339" duration="4162000" />
+      <workItem from="1630650940015" duration="7848000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1630164361516</created>
@@ -79,7 +126,49 @@
       <option name="project" value="LOCAL" />
       <updated>1630164361517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main page">
+      <created>1630240293998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630240293998</updated>
+    </task>
+    <task id="LOCAL-00003" summary="main page">
+      <created>1630265585206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630265585206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="page about">
+      <created>1630271907629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630271907629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="contacts article about">
+      <created>1630274345854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630274345854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all pages">
+      <created>1630419292235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630419292235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adaptive">
+      <created>1630426545001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630426545001</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,16 +178,29 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="main page" />
+    <MESSAGE value="page about" />
+    <MESSAGE value="contacts article about" />
+    <MESSAGE value="all pages" />
+    <MESSAGE value="adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="96" key="CommitChangelistDialog2" timestamp="1630164360138">
+    <state x="552" y="178" key="#Deployment" timestamp="1630530660624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="561" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1630164360138" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630164632733">
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1630530660624" />
+    <state x="561" y="96" key="CommitChangelistDialog2" timestamp="1630426544050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1630164632733" />
+    <state x="561" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1630426544050" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630240297646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1630240297646" />
+    <state x="818" y="419" key="WebDeployment.AddServerDialog.v.1" timestamp="1630530453084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="419" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1040@0.0.1920.1040" timestamp="1630530453084" />
   </component>
 </project>

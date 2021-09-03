@@ -2075,6 +2075,10 @@ video {
     position: static;
   }
 
+  .page-about .portfolio__item {
+    padding-bottom: 0;
+  }
+
 }
 
 @media (max-width: 480px) {

@@ -140,9 +140,6 @@ section {
   cursor: pointer;
 }
 
-.btn:hover {
-}
-
 .btn-fill {
   background: #6e7a76;
   color: #fff;

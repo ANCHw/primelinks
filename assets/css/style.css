@@ -732,7 +732,32 @@ footer {
 
 /*FOOTER*/
 
+/* 404 */
+.error404__title {
+  font-weight: normal;
+  font-size: 116px;
+  line-height: 116px;
+  color: #525252;
+  margin-bottom: 32px;
+}
 
+.error404__subtitle {
+  margin-bottom: 56px;
+  color: #525252;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.error404 a {
+  color: #979797;
+  text-decoration-line: underline;
+}
+
+.error404 a:hover {
+  text-decoration-line: none;
+}
+/* 404 */
 
 .main-slider__item {
   background-position: center;

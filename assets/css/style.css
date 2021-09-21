@@ -934,6 +934,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
+  overflow: hidden;
 }
 
 .reviews__name {
@@ -1645,6 +1646,29 @@ video {
 
 
 /*---------------------------------------------------------------------------------------------------------*/
+
+@media (max-height: 800px) {
+  .modal {
+    margin-top: 4%;
+    padding: 32px 24px;
+  }
+
+  #reviewModal .reviews__item p, #blogModal .blog__item p {
+    max-height: 265px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-height: 600px) {
+  #reviewModal .reviews__item p, #blogModal .blog__item p {
+    max-height: 228px;
+  }
+
+  .reviews__icon {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 @media (max-width: 1199px) {
   header .row {

@@ -1,59 +1,59 @@
 @font-face {
   font-family: 'Mazzard M';
-  src: url('/assets/fonts/Mazzard/MazzardM-Medium.eot');
+  src: url('./assets/fonts/Mazzard/MazzardM-Medium.eot');
   src: local('Mazzard M Medium'), local('MazzardM-Medium'),
-  url('/assets/fonts/Mazzard/MazzardM-Medium.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/Mazzard/MazzardM-Medium.woff2') format('woff2'),
-  url('/assets/fonts/Mazzard/MazzardM-Medium.woff') format('woff'),
-  url('/assets/fonts/Mazzard/MazzardM-Medium.ttf') format('truetype');
+  url('./assets/fonts/Mazzard/MazzardM-Medium.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Mazzard/MazzardM-Medium.woff2') format('woff2'),
+  url('./assets/fonts/Mazzard/MazzardM-Medium.woff') format('woff'),
+  url('./assets/fonts/Mazzard/MazzardM-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mazzard M';
-  src: url('/assets/fonts/Mazzard/MazzardM-Light.eot');
+  src: url('./assets/fonts/Mazzard/MazzardM-Light.eot');
   src: local('Mazzard M Light'), local('MazzardM-Light'),
-  url('/assets/fonts/Mazzard/MazzardM-Light.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/Mazzard/MazzardM-Light.woff2') format('woff2'),
-  url('/assets/fonts/Mazzard/MazzardM-Light.woff') format('woff'),
-  url('/assets/fonts/Mazzard/MazzardM-Light.ttf') format('truetype');
+  url('./assets/fonts/Mazzard/MazzardM-Light.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Mazzard/MazzardM-Light.woff2') format('woff2'),
+  url('./assets/fonts/Mazzard/MazzardM-Light.woff') format('woff'),
+  url('./assets/fonts/Mazzard/MazzardM-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mazzard M';
-  src: url('/assets/fonts/Mazzard/MazzardM-SemiBold.eot');
+  src: url('./assets/fonts/Mazzard/MazzardM-SemiBold.eot');
   src: local('Mazzard M SemiBold'), local('MazzardM-SemiBold'),
-  url('/assets/fonts/Mazzard/MazzardM-SemiBold.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/Mazzard/MazzardM-SemiBold.woff2') format('woff2'),
-  url('/assets/fonts/Mazzard/MazzardM-SemiBold.woff') format('woff'),
-  url('/assets/fonts/Mazzard/MazzardM-SemiBold.ttf') format('truetype');
+  url('./assets/fonts/Mazzard/MazzardM-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Mazzard/MazzardM-SemiBold.woff2') format('woff2'),
+  url('./assets/fonts/Mazzard/MazzardM-SemiBold.woff') format('woff'),
+  url('./assets/fonts/Mazzard/MazzardM-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mazzard M';
-  src: url('/assets/fonts/Mazzard/MazzardM-Bold.eot');
+  src: url('./assets/fonts/Mazzard/MazzardM-Bold.eot');
   src: local('Mazzard M Bold'), local('MazzardM-Bold'),
-  url('/assets/fonts/Mazzard/MazzardM-Bold.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/Mazzard/MazzardM-Bold.woff2') format('woff2'),
-  url('/assets/fonts/Mazzard/MazzardM-Bold.woff') format('woff'),
-  url('/assets/fonts/Mazzard/MazzardM-Bold.ttf') format('truetype');
+  url('./assets/fonts/Mazzard/MazzardM-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Mazzard/MazzardM-Bold.woff2') format('woff2'),
+  url('./assets/fonts/Mazzard/MazzardM-Bold.woff') format('woff'),
+  url('./assets/fonts/Mazzard/MazzardM-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mazzard M';
-  src: url('/assets/fonts/Mazzard/MazzardM-Regular.eot');
+  src: url('./assets/fonts/Mazzard/MazzardM-Regular.eot');
   src: local('Mazzard M Regular'), local('MazzardM-Regular'),
-  url('/assets/fonts/Mazzard/MazzardM-Regular.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/Mazzard/MazzardM-Regular.woff2') format('woff2'),
-  url('/assets/fonts/Mazzard/MazzardM-Regular.woff') format('woff'),
-  url('/assets/fonts/Mazzard/MazzardM-Regular.ttf') format('truetype');
+  url('./assets/fonts/Mazzard/MazzardM-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Mazzard/MazzardM-Regular.woff2') format('woff2'),
+  url('./assets/fonts/Mazzard/MazzardM-Regular.woff') format('woff'),
+  url('./assets/fonts/Mazzard/MazzardM-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

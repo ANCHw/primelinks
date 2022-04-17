@@ -274,7 +274,7 @@ section {
 
 .owl-carousel .owl-nav button.owl-next span,
 .owl-carousel .owl-nav button.owl-prev span {
-  background: url(./assets/img/svg/arrow-right.svg) no-repeat center;
+  background: url(../img/svg/arrow-right.svg) no-repeat center;
   width: 25px;
   height: 18px;
   color: transparent;
@@ -316,7 +316,7 @@ section {
   content: '';
   width: 15px;
   height: 12px;
-  background: url(./assets/img/svg/arrow-breadcrumbs.svg) no-repeat center / contain;
+  background: url(../img/svg/arrow-breadcrumbs.svg) no-repeat center / contain;
   position: absolute;
   left: 8px;
   top: 50%;
